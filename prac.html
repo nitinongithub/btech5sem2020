@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Practicing CSS: Cascading Stylesheets</title>
+        <link href="mystyle.css" rel="stylesheet">
+        <style type="text/css">
+            p
+            {
+                background-color: aqua;
+                text-decoration: underline;
+            }
+            .my-border{
+                border:red dotted 2px;
+                background-color: wheat;
+                padding: 10px;
+            }
+
+            #my-only-style{
+                border:tomato solid 2px;
+                background-color: white;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+            CSS is used to make HTML more attractive and also used to enhance the properties of HTML elements. 
+
+            External CSS file has the extension ".css".
+
+            CSS can be embedded in HTML in three ways:
+                1. In-line CSS
+                    When we create a css property ion HTML element iteself is called in-line css.
+                    => The keyword is used to styling the html element is "style" attribute.
+                2. Internal CSS
+                    When we create a css property / class under the tag  "head" is called internal css.
+                    => <style type="text/css"></style>
+                3. External CSS
+                    => When we write css classes in an external file and save that file with an extension ".css" 
+                    and then link that css file to our html page is called external css.
+
+            Selectors:
+            ---------
+
+            These are of two types:
+                1. Pre-defined Selectors {examples: p, body, table, tr, td, h1 ... etc.}
+                2. User-defined (Derived):
+                    a. Class => It is created with the help of dot(.) symbol.
+                    b. ID => It is created with the help of hash(#) symbol.
+        -->
+        <p style="font-family: verdana, 'Times New Roman'">
+            Save your favorite articles to read offline, sync your reading lists across devices and 
+            customize your reading experience with the official Wikipedia app. Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app. Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+        </p>
+
+        <p>
+            I am sharing HTML and CSS with B.Tech. Students.
+        </p>
+
+        <p class="my-border">
+            Save your favorite articles to read offline, sync your reading lists across devices and 
+            customize your reading experience with the official Wikipedia app. Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app. Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+        </p>
+
+        <p id="my-only-style">
+            Save your favorite articles to read offline, sync your reading lists across devices and 
+            customize your reading experience with the official Wikipedia app. Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app. Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+        </p>
+    </body>
+</html>

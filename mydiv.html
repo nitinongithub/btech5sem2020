@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Practicing DIV Tag</title> 
+        <style type="text/css">
+            .mydivstyle{
+                border: #ff0000 solid 1px;
+            }
+            .border-style{
+                border-radius: 10px;
+            }
+            .fix-position{
+                width: 100%;
+                position: fixed; /* relative | absolute | fixed */
+                background-color: #505050;
+                color: #ffffff;
+                font-size: 11px;
+                border: #0000ff solid 0px;
+                border-radius: 0px;
+                right: 0px;
+                bottom: 0px;
+            }
+        </style>
+        <!--
+            Red (0-255) Green (0-255) Blue (0-255)
+
+            RGB(0, 255, 0)
+        -->
+    </head>
+    <body>
+        <!--
+            1. A <div> tag is an empty tag container that is used to define 
+               a section or division of HTML page. 
+            2. It has no properties of its own.
+            3. It does not affect the content or layout and is used to group 
+               HTML elements to be styled with CSS or manipulated with scripts.
+
+            Since <div> is a block-level element, a line break is placed before and after it.
+
+            It is possible to place any HTML element within <div> tag, including another <div>.
+            
+            <div>
+                <p></p>
+            </div>
+
+            <p>
+                <div>
+
+                </div>
+            </p>
+                
+            Syntax:
+            The <div> tag comes in pairs. e.g. <div> </div>
+
+
+        -->
+        
+        <div class="mydivstyle border-style">
+            B.Tech. 3rd Year
+        </div>
+        <div class="mydivstyle">B.Tech. 4th Year</div>
+        <div class="fix-position">
+            NITIN
+        </div>
+        <!--
+            HTML 5
+            Semantic Web =>
+            
+            nav, header, main, article, 
+        -->
+    </body>
+</html>

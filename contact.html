@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <h2>Contact Us</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <form name="second" action="index.html" method="post">
+            <table border="1">
+                <tr>
+                    <td colspan="2" valign="middle" height="50"><b>Sign in</b></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        <input type="submit" value="Sign in" name="cmdSignin">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <form name="first">
+            <!-- textbox-->
+            <input type="text" value="" name="txtName" placeholder="Name Please">
+            <br><br>
+            Your Course
+            <input type="text" value="" name="txtCoure">
+            <br><br>
+            Password
+            <input type="password">
+            <br><br>
+            <input type="button" value="Sign in" name="cmdSignin">
+            <br><br>
+            
+            Gender
+            <br>
+            <input type="radio" name="optGender">Male<br>
+            <input type="radio" name="optGender">Female<br>
+            <input type="radio" name="optGender">Trans Gender
+
+            <br><br>
+
+            Hobbies<br>
+            <input type="checkbox" name="chkHobbies">Cricket<br>
+            <input type="checkbox" name="chkHobbies">Football<br>
+            <input type="checkbox" name="chkHobbies">Chess<br>
+        </form>
+    </body>
+</html>
