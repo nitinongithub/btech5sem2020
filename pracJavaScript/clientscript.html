@@ -1,0 +1,69 @@
+<!--
+    Javascript is the world's most popular programming language.
+    {Different flavours of javascript: jquery, node.js, angularJs, reactjs, blockchain }
+
+    Javascript is a programming language of WEB.
+
+    it can be embedded in HTML page in three ways:
+    
+    1. In-line => if we write JS code in HTML element itself is called in-line javascript
+    2. Internal => If we create functions under the head section or after the body section 
+        and then call those functions in html page via some events it is called internal JS.
+    3. External => If we create an external file having extension (.js) and called it in 
+        HTML page is called external JS.
+
+    Basic Intro:
+    1. It always works on some events viz.: keypress, mouse click, page load etc. 
+
+    JS
+    --
+    1. it is programming/scripting language 
+    2. it is an event driven.
+    3. it can be embedded in 3 ways:
+        a. in-line (html element)
+        b. internal (if we create functions in script tag and called them later in the page)
+        c. Extrenal (if call any js file in html is called external JS.)
+        
+-->
+<html>
+    <head>
+        <title>CLient Side Scripting</title>
+        <style>
+            .mypr{
+                font-family: Arial;
+                font-size: 18px;
+                color: #f0f0f0;
+            }
+        </style>
+        <!--script>
+            function callMe(){
+                /*alert("Welcome to JS World !!");*/
+                document.write('Welcome to JS World !!');
+            }
+
+            function likeMe(){
+                document.write('<img src="img/like.jpg" width="50">');
+            }
+        </script-->
+        <script src="myscript.js?version=2.3"></script> <!-- This is an example of external javaScript embedding -->
+    </head>
+
+    <!--body onload="alert('Welcome to JS World !! ');" --> <!-- example of in-line -->
+    <body>
+        <p id="mypara1">
+            <img src="img/dislike.jpg" width="50" onclick="likeMe();">
+        </p>
+        <p class="mypr" id="mypara2">Please Like Us.</p>
+        <p class="mypr"></p>
+        <p class="mypr"></p>
+        <p class="mypr"></p>
+        <p class="mypr"></p>
+        <p class="mypr"></p>
+        <p class="mypr"></p>
+    </body>
+</html>
+
+
+<!--
+    DOM => Document Object Model
+-->
